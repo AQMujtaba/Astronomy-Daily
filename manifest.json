@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Astronomy Daily",
+  "description": "This extension enhances the New Tab page by displaying the Astronomy Picture of the Day, courtesy of NASA",
+  "version": "1.0",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "browser_action": {
+   "default_icon": "icon.png"
+  },
+
+  "permissions": [
+   "activeTab"
+   ]
+}

@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Lato Thin';
+	text-align: center;
+	font-size: 70px;
+	font-weight: lighter;
+	background: -webkit-radial-gradient(#f2f2f2, #d0d0d0, #bfbfbf);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: top;
+}
+
+img {
+	max-height: 450px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: ridge;
+    border-color: #adadad;
+    border-width: 3px
+}
